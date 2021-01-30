@@ -27,6 +27,7 @@ Hux Blog User Manual
 2. Installed dependencies in the `Gemfile`:
 
 ```sh
+$ bundle config set --local path 'vendor/bundle' # install gems within the project folder instead of the location used by `gem install`
 $ bundle install 
 ```
 
