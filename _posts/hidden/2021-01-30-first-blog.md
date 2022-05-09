@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "My First Blog"
-author: "caoya"
+author: "cya"
 header-style: text
+hidden: true
 tags:
   - First
 ---

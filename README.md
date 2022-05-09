@@ -1,2 +1,2 @@
-[caoya blog](https://yuangcao.github.io)
+[cya blog](https://yuangcao.github.io)
 ================================
