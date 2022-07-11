@@ -7,7 +7,7 @@ tags:
   - GitHub
 ---
 
-配置实验室服务器访问自己的 GitHub 账号，想把已有的 `~/.ssh/id_rsa` 添加到自己账户的 ssh keys 中，但是报错 Key is already in use. 原因是 GitHub 不允许一个 ssh key 给多个账户使用。
+配置实验室服务器访问自己的 GitHub 账号，想把已有的 `~/.ssh/id_rsa` 添加到自己账户的 ssh keys 中，但是报错 Key is already in use。原因是 GitHub 不允许一个 ssh key 给多个账户使用。
 
 因此我需要在服务器上生成一个新的 ssh key 给自己的账户用，但是在 `git clone` 时会默认用 `~/.ssh/id_rsa` 来与 github.com 进行身份验证，因此要配置一下。
 
